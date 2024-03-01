@@ -1,169 +1,39 @@
-
-.topContainer {
-    background-color: rgb(36, 7, 198);
-    padding: 20px;
-    /* font-weight: bold; */
-
-   
-    
-    
-
-    
-
+*{
+    margin: 0;
+    padding: 0;
 }
-.firstbttn {
-    border: none;
-    background-color: rgb(36, 7, 198);
-    color: white;
-    font-weight: bold;
-    margin-right: 25px;
+
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: lightblue;
+    width: 100nw;
+    display: flex; 
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+ }
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size:20px;
+    color: black;
+
+
+ }
+
+ button {
+    padding: 8px 15px;
     font-size: 18px;
-    cursor:pointer;
-}
-
-.secbttn{
-    border: none;
-    background-color:rgb(36, 7, 198);
-    color:white;
-    margin-right: 25px;
     font-weight: bold;
-    font-size:18px;
-    cursor:pointer;
-}
-
-.thirdbttn {
+    border-radius: 10px;
+    background-color: antiquewhite;
     border: none;
-    background-color: rgb(36, 7, 198);
-    color: white;
-    margin-right: 25px;
-    font-weight: bold;
-    font-size:18px;
-    cursor: pointer;
-
-}
-
-.fourbttn {
-    border: none;
-    background-color: rgb(36, 7, 198);
-    color: white;
-    font-weight:bold;
-    font-size:18px;
-    cursor:pointer;
-}
-
-.midContainer {
-    background-color: rgb(8, 101, 241);
-    padding: 25px;
-    margin: bottom 5px;
-
-}
-.search {
-    padding: 30px;
-    float: right;
-
-}
-
-.thirdContainer {
-    background-color: rgb(8, 101, 241); 
-    border-top: solid white;
-    padding:20px
-}
-.fbttn {
-    background-color: rgb(8, 101, 241);
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size:18px;
-    margin-right:22px;
-    cursor: pointer;
-}
-.sbttn {
-    background-color: rgb(8, 101, 241);
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size:18px;
-    margin-right:22px;
-    cursor:pointer;
-}
-
-.tbttn {
-    background-color: rgb(8, 101, 241);
-    border:none;
-    color: white;
-    font-weight: bold;
-    font-size:18px;
-    margin-right:22px;
-    cursor:pointer;
-}
-.fibttn{
-    background-color: rgb(8, 101, 241);
-    border: none;
-    color:white;
-    font-weight:bold;
-    font-size: 22px;
-    margin-left: 50px;
-    cursor:pointer;
-}
-.sibttn {
-    background-color: rgb(8, 101, 241);
-    border: none;
-    color:white;
-    font-weight: bold;
-    font-size:18px;
-    margin-left: 25px;
-    cursor:pointer;
-}
-
-
-.sevbttn {
-    background-color: rgb(8, 101, 241);
-    border:none;
-    color:white;
-    font-weight:bold;
-    font-size: 18px;
-    margin-left:22px;
-    cursor:pointer;
-}
-
-.ebttn {
-    background-color: rgb(8, 101, 241);
-    border: none;
-    color:white;
-    font-weight:bold;
-    font-size:18px;
-    margin-left:22px;
-    cursor:pointer;
-
-
-}
-
-.fourContainer {
-    background-color: white;
-    padding:25px;
-}
-.pbttn{
-    background-color: white;
-    border:none;
-    color:blue;
-    font-size: 18px; 
-    cursor:pointer;
-}
-
-.fiContainer {
-    border: solid rgb(36, 7, 198);
-    background-color: rgb(36, 7, 198);
-    color:white;
-    text-align: center;
-    
-}
- 
-.shop {
-    background-color: white;
-    color:blue;
-    text-align: center;
-    cursor:pointer;
-}
+    margin: 0 8px;
+ }
 
 
 
